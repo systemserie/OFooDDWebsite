@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food delivery Services in india | MyonlineMeal.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" media="screen and(max-width=700px)" href="css/phone.css">
+    <style>
+        /* #navbar{
+            display: flex;
+            align-items: center;  
+        } */
+        /* #services{
+            flex-direction: column;
+        } */
+        #logo{
+            margin: 10px 22px;
+        }
+
+        #logo img{
+            height: 75px;
+            margin: 10px 22px;
+
+        }
+        #navbar{
+            position: relative;
+            top: 0px;
+            display: flex;
+            align-items: center;  
+        }
+        #navbar ul{
+            display: flex;
+        }
+        
+         #navbar::before{
+            content: "";
+            background-color: black;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+        #navbar ul li{
+            /* color: white; */
+            list-style: none;
+            font-size: 1.3rem;
+        }
+        #navbar ul li a{
+            color: white;
+            display: block;
+            text-decoration: none;
+            padding: 3px 22px;
+            border-radius: 20px;
+        }
+          #navbar ul li a:hover{
+            color: black;
+            background: white;
+            
+        }
+        #home{
+            display: flex;
+            flex-direction: column;
+            padding: 1px 200px;
+            height: 840px;
+            justify-content: center;
+            align-items: center;
+        }
+        #home::before{
+            content: "";
+            background:url('salad-2068220_1280.jpg') no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 300%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.89;
+        }
+        #home h1{
+            padding: 12px;
+            /* color: white; */
+            text-align: center;
+        }
+        #home p{
+            font-size: 1.2rem;
+            /* color: white; */
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+        }
+        .h-primary{
+            font-size: 3.2rem;
+            padding: 8px;
+        }
+        .h-secondary{
+            font-size: 2.8rem;
+            padding: 8px;
+        }
+        .btn{
+            margin: 20px;
+            padding: 10px 20px;
+            color: white;
+            border: 2px solid white;
+            background-color: brown;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .center{
+            text-align: center;
+        }
+        #services{
+            margin: 35px;
+            display: flex;
+        }
+        #services .box{
+            border: 2px solid brown;
+            padding: 34px;
+            margin: 3px 6px;
+            border-radius: 23px;
+            background-color: rgb(173, 168, 168);
+        }
+        #services .box img{
+            height: 150px;
+            margin: auto;
+            display: block;
+        }
+        #client{ 
+             display: flex;
+            justify-content: center;
+            align-items: center;
+         } 
+        #client-section{
+            height: 300px;
+            position: relative;
+        } 
+        #client-section::before{
+            content: "";
+            position: absolute;
+            background: url('french-restaurant-2506490.jpg') no-repeat center center/cover;
+            width: 100%;
+            height: 50%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        #client img{
+            height: 125px;
+        }
+        .client-item{
+            padding: 34px;
+        }
+        footer{
+            background: black;
+            color: white;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="download.png" alt="MyonlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <secction id="home">
+        <h1 class="h-primary">Welcome to MyonlineMeal</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minus excepturi corporis numquam eligendi fugit!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, eius! Enim rem dolore minima natus nemo eos!
+            </p>
+            <button class="btn">Order Now</button>
+ </section>
+<section class="services-container">
+    <h1 class="h-primary center">Our Services</h1>
+    <div id="services">
+        <div class="box">
+            <img src="pizza-2000601.jpg" alt="">
+            <h2 class="h2-secondary center">Food Ordering</h2>
+            <p text="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui incidunt dolor quis voluptatum quasi! Deleniti tenetur sed soluta ex, sunt eveniet rerum temporibus?  </p>
+        </div>
+        <div class="box">
+            <img src="food-delivery-5217579_1920.png" alt="">
+            <h2 class="h2-secondary center">Food Catering</h2>
+            <p text="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui incidunt dolor quis voluptatum quasi! Deleniti tenetur sed soluta ex, sunt eveniet rerum temporibus? </p>
+        </div>
+        <div class="box">
+            <img src="appetite.jpg" alt="">
+            <h2 class="h2-secondary center">Bulk Ordering</h2>
+            <p text="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui incidunt dolor quis voluptatum quasi! Deleniti tenetur sed soluta ex, sunt eveniet rerum temporibus?  </p>
+        </div>
+    </div>
+</section>   
+<section class="client">
+    <h1 class="h-primary center">Our client</h1>
+    <div id="client">
+        <div class="client-item">
+            <img src="marguerite-74886.jpg" alt="Our client">
+        </div>
+        <div class="client-item">
+            <img src="web-1045994.jpg" alt="Our client">
+        </div>
+        <div class="client-item">
+            <img src="architecture-3885905_1280.jpg" alt="Our client">
+        </div>
+        <div class="client-item">
+            <img src="manta-1580282_1280.jpg" alt="Our client">
+        </div>
+    </div>
+</section> 
+
+<section id="contact">
+<h1 class="h-primary contact">Contact Us</h1>
+<div id="Contact-box">
+    <form action="">
+        <div class="form-group">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+    </form>
+</div>
+</section>
+<footer>
+    <div class="center">
+        Copyright &copy; www.myonlinemeal.com. All rights reserved!
+    </div>
+</footer>
+</body>
+</html>
